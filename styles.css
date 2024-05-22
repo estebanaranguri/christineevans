@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* LOGO*/
+
+h1 {
+    background: black;
+}
+h1.logo {
+    background: none;
+    margin-left: 40px;
+    width: 150px;
+    text-align: center;
+    border: none;
+    
+}
+
+
+/* NAVIGATION */
+.nav-main ul li a:hover {
+    border-bottom: solid 2px white;
+}
+
+/* NAV LEFT*/
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background: #03459c;    
+}
+
+/* NAV RIGHT*/
+
+.nav-menu-show {
+    display: flex;
+    margin: auto;
+    margin-right: 0px;
+    font-family: sans-serif;
+
+}
+.nav-menu-right {
+    margin-right: 10px;
+    
+}
+
+
+.nav-main ul li {
+    padding: 10px;
+    margin: 0px 10px;
+}
+
+.nav-main ul li a {
+    padding: 6px;
+}
+
+hgroup {
+    color: white;
+    font-size: 30px;
+}
+
+/* HEADER*/
+
+header {
+    padding-top: 50px;
+}
+header, h1 {
+    display: block;
+    font-family: sans-serif;
+}
+
+.hello {
+    color: white;
+    margin: auto;
+    width: 350px;
+    text-align: center;
+    margin-left: 40px;
+    padding: 10px 10px;   
+    font-size: 60px;
+    background: none;
+    border: none;
+    
+}
+h1, h2 {
+    color: white;
+    border: white solid;
+}
+.goal {
+    color: white;
+    width: 120px;
+    height: 200px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 80px;
+    padding: 5px 10px;
+    border: none;
+    font-size: 50px;
+}
+
+
+
+
+header {
+    width: 100%;
+    height: 1500px;
+    background: url(img/pexels-pixabay-207720.jpg) no-repeat center center/cover;
+    
+}
+
+
+
+/* BODY */
+body {
+    background: black;
+    font-family: 'Oswald', sans-serif;
+    
+    
+}
+.articulo1 {
+    height: 950px;
+    padding-top: 1px;
+    background: #03459c;
+}
+
+
+.nav-article li h1 {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+/* SOCIAL*/
+.social {
+    margin: 30px;
+    background: white;
+
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.follow {
+    color: #616161;
+    text-align: center;
+}
+
+/* FOOTER*/
+footer {
+    border: solid white;
+    color: white;
+    margin: auto;
+    text-align: center;
+    background: red;
+}
