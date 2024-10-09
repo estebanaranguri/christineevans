@@ -2,7 +2,20 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+body{
+    background: black;
+    font-family: 'Oswald', sans-serif;
+     
+}
+
+ul {
+    list-style: none;
     
+}
+
+div {
+    width: 100%;
 }
 
 a {
@@ -10,164 +23,303 @@ a {
     text-decoration: none;
 }
 
-ul {
-    list-style: none;
-}
 
-/* LOGO*/
-
-h1 {
-    background: black;
-}
-h1.logo {
-    background: none;
-    margin-left: 40px;
-    width: 150px;
+.agrupar .nav-main a h1.name {
+    width: auto;
+    height: auto;
     text-align: center;
-    border: none;
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
     
+
 }
 
 
-/* NAVIGATION */
-.nav-main ul li a:hover {
-    border-bottom: solid 2px white;
-}
-
-/* NAV LEFT*/
+/* Navigation */
 .nav-main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 150px;
-    background: #03459c;    
+    height: 100px;
+    padding: 20px 0;
+    background: #03459c;
 }
 
-/* NAV RIGHT*/
+/* NAV RIGHT */
+.nav-main ul.nav-menu-right {
+    margin-right: 10px;
+}
 
-.nav-menu-show {
-    display: flex;
+.nav-main ul.nav-menu {
     margin: auto;
     margin-right: 0px;
-    font-family: sans-serif;
-
 }
-.nav-menu-right {
-    margin-right: 10px;
+
+.nav-main ul li {
+    padding: 10px;
+    margin: 0px 15px;
+}
+
+.nav-main ul.nav-menu li {
     
 }
 
 
-.nav-main ul li {
-    padding: 10px;
-    margin: 0px 10px;
-}
 
 .nav-main ul li a {
     padding: 6px;
 }
 
-hgroup {
+/* NAV LEFT*/
+.nav-main ul {
+    display: flex;
+}
+
+
+
+.nav-main ul li a:hover {
+    border-bottom: solid 2px white;
+}
+
+
+
+
+.menu-btn {
     color: white;
-    font-size: 30px;
+    width: auto;
+    position: absolute;
+    cursor: pointer;
+    top: 38px;
+    right: 30px;
+    z-index: 2;
+    font-size: 0.8rem;
+    display: none;
 }
 
-/* HEADER*/
+.agrupar {
+    width: 100%;
+    margin: auto;   
 
+}
+
+/* HEADER */
 header {
-    padding-top: 50px;
+    width: 100%;
+    
 }
-header, h1 {
-    display: block;
-    font-family: sans-serif;
+
+.titulo {
+    width: 100%;
+    height: 1541px;
+    background: url(img/pexels-pixabay-207720.jpg) no-repeat center center/cover;
+    padding-top: 90px;
 }
 
 .hello {
-    color: white;
+    width: 450px;
+    height: 260px;
     margin: auto;
-    width: 350px;
     text-align: center;
-    margin-left: 40px;
-    padding: 10px 10px;   
-    font-size: 60px;
-    background: none;
-    border: none;
-    
-}
-h1, h2 {
-    color: white;
-    border: white solid;
-}
-.goal {
-    color: white;
-    width: 120px;
-    height: 200px;
-    text-align: center;
-    margin-top: 200px;
     margin-left: 80px;
-    padding: 5px 10px;
-    border: none;
-    font-size: 50px;
+    padding: 10px 10px;
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif
 }
-
-
-
-
-header {
-    width: 100%;
-    height: 1500px;
-    background: url(img/pexels-pixabay-207720.jpg) no-repeat center center/cover;
-    
-}
-
-
-
-/* BODY */
-body {
+.phrase-two {
     background: black;
+    width: 250px;
+    height: 120px;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 40px;
+    padding: 5px 10px;
+    font-size: 30px;
     font-family: 'Oswald', sans-serif;
-    
-    
 }
-.articulo1 {
-    height: 950px;
-    padding-top: 1px;
+
+header, h1 {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+/* SECTION ONE*/
+.section-one {
+    height: 730px;
     background: #03459c;
+    padding-top: 100px;
 }
-
-
-.nav-article li h1 {
-    width: 300px;
-    margin: auto;
+.nav-main-center {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-main-center li h1 {
+    width: 300px;
+    padding: 5px 0;
+    margin: 40px;
+    font-family: 'Oswald', sans-serif;
+    background: black;
+    font-size: 35px;
     text-align: center;
-    margin-top: 150px;
+    align-items: center;
+}
+
+/* EMAIL*/
+
+.mail {
+    width: 100%;
+    height: auto;
+    font-family: sans-serif;   
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    background: black;
+    font-size: 15px;
+    
+    
+}
+
+.needs {
+    
+    margin-bottom: 10px;
+}
+
+.address {
+}
+
+/* FOOTER */
+
+.copy {
+    background: black;
+    padding: 20px 0;
+    text-align: center;
+    color: #616161;
+    font-size: 12px;
+    padding-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
 
 }
 
-/* SOCIAL*/
+/* SOCIAL */
 .social {
-    margin: 30px;
-    background: white;
-
+    padding: 20px;
 }
+
 
 .links {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.follow {
-    color: #616161;
-    text-align: center;
+
+.links a {
+    margin: 0 30px;
 }
 
-/* FOOTER*/
-footer {
-    border: solid white;
-    color: white;
-    margin: auto;
-    text-align: center;
-    background: red;
+.links a i {
+    font-size: 1rem;
+}
+
+/* FOOTER LINKS*/
+.footer-links {
+    background: #2f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer-container ul {
+    margin: 0 auto;
+}
+
+.footer-container ul li {
+    line-height: 2.8;
+}
+
+@media (max-width: 1400px) {
+    .titulo h1.hello {
+        width: 300px;
+        height: 150px;
+        margin-left: 40px;
+    }
+
+    .titulo {
+        padding-top: px;
+    }
+
+    .titulo h2.phrase-two {
+        width: 250px;
+        height: 110px;
+        margin-top: 450px;
+    }    
+}
+
+@media (max-width: 1250px) {
+    .titulo h1.hello {
+        width: 200px;
+        height: 150px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .menu-btn {
+        display: block;
+    }
+    .nav-main ul.nav-menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #03459c;
+        height: 100%;
+        width: 100%;
+        padding: 30px;
+        opacity: 10;
+        transform: translateX(-700px);
+        transition: transform .5s ease-in-out;
+        padding-top: 160px;
+    }
+
+    .nav-main ul.nav-menu.show {
+        transform: translateX(0px);
+        
+    }
+
+    .nav-main ul.nav-menu li {
+        padding: 20px;
+        font-size: 30px;
+        height: 20%;
+        text-align: center;
+        margin: 30px;
+        
+        
+    }
+
+    .nav-main ul.nav-menu-right {
+        margin-right: 80px;
+    }
+
+    .titulo h1.hello {
+        width: 50px;
+    }
+
+    .footer-links .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
